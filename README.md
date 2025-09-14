@@ -21,7 +21,7 @@
 * Created S3 bucket: athena_logs to store Athena query results.
 * Verified queries on partitioned data from orders table.
 
-# 5. Power BI Integration
+## 5. Power BI Integration
 * Installed Athena ODBC driver (SimbaAthena).
 * Configured DSN with:
   * Data source, region, and S3 output location.
@@ -30,11 +30,11 @@
   Get Data → ODBC → aws-odbc-driver → Access Key / Secret Key
 
 ## 6. Data Analysis
-# Data Preparation
+#### Data Preparation
 * Configured many-to-many relationship between Orders and Returns.
 * Built Date table & marked as Date Table
 
-# Measures
+### Measures
 * Built key measures:
   * Sales (Current & Previous year)
   * Profit (Current & Previous year)
@@ -44,7 +44,7 @@
   
 
 ## 🚀 Tech Stack
-**AWS S3** → Data storage
-**AWS Glue** → Data cataloging & partition management
-**AWS Athena** → SQL queries on S3 data
-**Power BI** → Data modeling & visualization
+* **AWS S3** → Data storage
+* **AWS Glue** → Data cataloging & partition management
+* **AWS Athena** → SQL queries on S3 data
+* **Power BI** → Data modeling & visualization
